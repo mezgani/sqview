@@ -1,0 +1,14 @@
+
+Python application that analyzes squid log files, and generates nice reports from.
+The squid native log file format logs more and different information than the common log file format:         
+the request duration, some timeout information, the next upstream server address, and the content type. 
+The format is:                                                                                          
+time elapsed remotehost code/status bytes method URL rfc931 peerstatus/peerhost type
+
+There are known task which need to be taken care of.
+as deploying parallel thread, making a back end database like sqlite or may be berkley DB.
+
+sqview is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version.See the GNU General Public License for more details
