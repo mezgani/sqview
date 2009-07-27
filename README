@@ -1,5 +1,5 @@
 
-Python application that analyzes squid log files, and generates nice reports from.
+Python application that analyses squid log files, and generates nice reports from.
 The squid native log file format logs more and different information than the common log file format:         
 the request duration, some timeout information, the next upstream server address, and the content type. 
 The format is:                                                                                          
